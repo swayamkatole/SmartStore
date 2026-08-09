@@ -146,48 +146,50 @@ npm run dev
 
 ## 📁 Project Structure
 
+```
 SmartStore/
 ├── Backend/
-│ ├── src/main/java/com/smartstore/backend/
-│ │ ├── controller/
-│ │ │ ├── AuthController.java
-│ │ │ ├── ProductController.java
-│ │ │ └── OrderController.java
-│ │ ├── model/
-│ │ │ ├── User.java
-│ │ │ ├── Product.java
-│ │ │ ├── Order.java
-│ │ │ └── Category.java
-│ │ ├── repository/
-│ │ ├── security/
-│ │ │ ├── JwtUtil.java
-│ │ │ └── JwtFilter.java
-│ │ ├── service/
-│ │ ├── dto/
-│ │ ├── SecurityConfig.java
-│ │ ├── DataInitializer.java
-│ │ └── BackendApplication.java
-│ ├── Dockerfile
-│ └── pom.xml
+│   ├── src/main/java/com/smartstore/backend/
+│   │   ├── controller/
+│   │   │   ├── AuthController.java
+│   │   │   ├── ProductController.java
+│   │   │   └── OrderController.java
+│   │   ├── model/
+│   │   │   ├── User.java
+│   │   │   ├── Product.java
+│   │   │   ├── Order.java
+│   │   │   └── Category.java
+│   │   ├── repository/
+│   │   ├── security/
+│   │   │   ├── JwtUtil.java
+│   │   │   └── JwtFilter.java
+│   │   ├── service/
+│   │   ├── dto/
+│   │   ├── SecurityConfig.java
+│   │   ├── DataInitializer.java
+│   │   └── BackendApplication.java
+│   ├── Dockerfile
+│   └── pom.xml
 │
 └── frontend/
-└── src/
-├── pages/
-│ ├── HomePage.jsx
-│ ├── LoginPage.jsx
-│ ├── RegisterPage.jsx
-│ ├── ProductDetailPage.jsx
-│ ├── CartPage.jsx
-│ └── OrdersPage.jsx
-├── components/
-│ ├── Navbar.jsx
-│ └── ProductCard.jsx
-├── context/
-│ ├── AuthContext.jsx
-│ └── CartContext.jsx
-├── services/
-│ └── api.js
-└── App.jsx
+    └── src/
+        ├── pages/
+        │   ├── HomePage.jsx
+        │   ├── LoginPage.jsx
+        │   ├── RegisterPage.jsx
+        │   ├── ProductDetailPage.jsx
+        │   ├── CartPage.jsx
+        │   └── OrdersPage.jsx
+        ├── components/
+        │   ├── Navbar.jsx
+        │   └── ProductCard.jsx
+        ├── context/
+        │   ├── AuthContext.jsx
+        │   └── CartContext.jsx
+        ├── services/
+        │   └── api.js
+        └── App.jsx
+```        
 
 
 ---
